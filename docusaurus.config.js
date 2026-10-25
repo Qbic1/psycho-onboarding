@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 const config = {
-  title: 'Онбординг школьного психолога',
+  title: 'База знаний педагога-психолога',
   tagline:
     'Справочник педагога-психолога: нормативная база РФ и Республики Татарстан, документы, шаблоны, инструкции',
 
@@ -50,7 +50,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Онбординг школьного психолога',
+        title: 'База знаний педагога-психолога',
         logo: {
           alt: 'Логотип',
           src: 'img/logo.svg',
