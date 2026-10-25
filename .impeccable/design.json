@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-25T00:00:00Z",
-  "title": "Design System: Онбординг школьного психолога",
+  "title": "Design System: База знаний педагога-психолога",
   "extensions": {
     "colorMeta": {
       "hvoya": {
@@ -68,7 +68,7 @@
       "kind": "nav",
       "refersTo": "icon-tile",
       "description": "Логотип-плашка: скруглённый квадрат «Тихой ели» с белым штриховым Ψ.",
-      "html": "<span class=\"ds-brand\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 32 32\" aria-hidden=\"true\"><rect width=\"32\" height=\"32\" rx=\"8\" fill=\"#166534\"/><path d=\"M16 8.5v15\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\"/><path d=\"M9.7 8.5c0 7.4 3 9.7 6.3 9.7s6.3-2.3 6.3-9.7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\"/></svg>Онбординг школьного психолога</span>",
+      "html": "<span class=\"ds-brand\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 32 32\" aria-hidden=\"true\"><rect width=\"32\" height=\"32\" rx=\"8\" fill=\"#166534\"/><path d=\"M16 8.5v15\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\"/><path d=\"M9.7 8.5c0 7.4 3 9.7 6.3 9.7s6.3-2.3 6.3-9.7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\"/></svg>База знаний педагога-психолога</span>",
       "css": ".ds-brand { display: inline-flex; align-items: center; gap: 12px; font: 600 15px/1 Inter, system-ui, sans-serif; color: #1c1e21; }"
     }
   ],
