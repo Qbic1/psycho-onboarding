@@ -1,0 +1,28 @@
+# Dependencies
+/node_modules
+
+# Production build
+/build
+
+# Generated files
+.docusaurus
+.cache-loader
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Impeccable: локальные и сеансовые артефакты; движок скачивается по требованию
+.impeccable/config.local.json
+.impeccable/mocks/
+.impeccable/review/
+.impeccable/payload-*.json
+.impeccable/brief-body.md
+.github/skills/impeccable/scripts/bin/

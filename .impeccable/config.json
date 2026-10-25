@@ -1,0 +1,23 @@
+{
+  "hook": {
+    "enabled": true,
+    "limits": {
+      "maxFindings": 5,
+      "maxChars": 8000
+    }
+  },
+  "detector": {
+    "ignoreRules": [
+      "icon-tile-stack"
+    ],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-10-25T09:46:28.281Z",
+        "reason": "Inter — лицо выбранного канона документационных платформ (Docusaurus/VitePress-класс), утверждено скетчем"
+      }
+    ]
+  }
+}

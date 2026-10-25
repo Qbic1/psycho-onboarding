@@ -1,0 +1,74 @@
+/**
+ * Global styles. Хвойная зелень — категорийный стандарт docs.
+ * Палитра: акцент #166534 (ход в темноту #14532d), карточки #f2f6f2.
+ */
+
+:root {
+  --ifm-color-primary: #166534;
+  --ifm-color-primary-dark: #14532d;
+  --ifm-color-primary-darker: #123f24;
+  --ifm-color-primary-darkest: #0e2f1b;
+  --ifm-color-primary-light: #1a7439;
+  --ifm-color-primary-lighter: #1e8040;
+  --ifm-color-primary-lightest: #2a9c53;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI',
+    'PT Sans', Arial, sans-serif;
+  --ifm-heading-font-family: var(--ifm-font-family-base);
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(22, 101, 52, 0.12);
+
+  /* главная: карточки и поверхности */
+  --home-card-bg: #f2f6f2;
+  --home-card-border: #e0e8e0;
+  --home-tile-bg: #ffffff;
+  --home-tile-border: #e0e8e0;
+  --home-strip-bg: #f2f6f2;
+  --home-strip-border: #e0e8e0;
+}
+
+/* Для читаемости в тёмной теме — светлый ход того же оттенка. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4cc38a;
+  --ifm-color-primary-dark: #3fae7a;
+  --ifm-color-primary-darker: #38a06f;
+  --ifm-color-primary-darkest: #2d8058;
+  --ifm-color-primary-light: #63cf9c;
+  --ifm-color-primary-lighter: #70d4a4;
+  --ifm-color-primary-lightest: #8ddfb8;
+  --docusaurus-highlighted-code-line-bg: rgba(76, 195, 138, 0.15);
+
+  --home-card-bg: #1a211d;
+  --home-card-border: #2a342e;
+  --home-tile-bg: #222b25;
+  --home-tile-border: #2a342e;
+  --home-strip-bg: #161b18;
+  --home-strip-border: #2a342e;
+}
+
+/* Браузерные поверхности несут ту же гамму */
+::selection {
+  background: rgba(22, 101, 52, 0.22);
+}
+[data-theme='dark'] ::selection {
+  background: rgba(76, 195, 138, 0.32);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* Infima оставляет html прозрачным и полагается на канвас браузера;
+   явный фон нужен для webview-просмотра и печати */
+html {
+  background-color: var(--ifm-background-surface-color);
+}
+
+table {
+  font-variant-numeric: tabular-nums;
+}
+
+.markdown p,
+.markdown li {
+  text-wrap: pretty;
+}
