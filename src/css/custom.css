@@ -24,6 +24,13 @@
   --home-tile-border: #e0e8e0;
   --home-strip-bg: #f2f6f2;
   --home-strip-border: #e0e8e0;
+
+  /* поиск: выпадающая подсказка из токенов системы */
+  --search-local-modal-background: #f2f6f2;
+  --search-local-hit-background: #ffffff;
+  --search-local-hit-color: #1c1e21;
+  --search-local-muted-color: #4b5563;
+  --search-local-highlight-color: rgba(22, 101, 52, 0.14);
 }
 
 /* Для читаемости в тёмной теме — светлый ход того же оттенка. */
@@ -43,6 +50,23 @@
   --home-tile-border: #2a342e;
   --home-strip-bg: #161b18;
   --home-strip-border: #2a342e;
+
+  --search-local-modal-background: #222b25;
+  --search-local-hit-background: #1a211d;
+  --search-local-hit-color: #e5e7eb;
+  --search-local-muted-color: #9ca3af;
+  --search-local-highlight-color: rgba(76, 195, 138, 0.22);
+}
+
+/* Подсветка найденных слов на странице результата */
+mark {
+  background: rgba(22, 101, 52, 0.18);
+  color: inherit;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+[data-theme='dark'] mark {
+  background: rgba(76, 195, 138, 0.28);
 }
 
 /* Браузерные поверхности несут ту же гамму */

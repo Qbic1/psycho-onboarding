@@ -34,6 +34,7 @@ web
 
 - Статический сайт на Docusaurus 3 (preset-classic), контент — Markdown в `docs/`, деплой на GitHub Pages через GitHub Actions при пуше в `main`.
 - Локаль только `ru`; URL: `https://qbic1.github.io/psycho-onboarding/`.
+- Локальный поиск по сайту (`@easyops-cn/docusaurus-search-local`): индекс в сборке, русская морфология, без внешних сервисов; служит сценарию «точечный 30-секундный поиск».
 - 10 генерируемых .docx-шаблонов (`static/`), исходник генерации — `scripts/generate-templates.js`.
 - Репозиторий: `github.com/Qbic1/psycho-onboarding`; правки контента через PR.
 - Дизайн должен работать в чтении с экрана и в печати (психологи печатают документы и страницы).

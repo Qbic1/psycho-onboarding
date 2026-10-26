@@ -1,0 +1,34 @@
+{
+  "theme.SearchBar.label": {
+    "message": "Поиск по справочнику",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Ничего не найдено",
+    "description": "No results text in the search dropdown"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Показать все результаты",
+    "description": "Link to the search page with all results"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Результаты поиска: «{query}»",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Поиск по справочнику",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Везде",
+    "description": "Search context label: search everywhere"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Найден {count} документ|Найдено {count} документа|Найдено {count} документов|Найдено {count} документов",
+    "description": "Number of documents found on the search page"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Документы не найдены",
+    "description": "No results text on the search page"
+  }
+}
