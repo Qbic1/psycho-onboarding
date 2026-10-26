@@ -70,6 +70,14 @@
       "description": "Логотип-плашка: скруглённый квадрат «Тихой ели» с белым штриховым Ψ.",
       "html": "<span class=\"ds-brand\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 32 32\" aria-hidden=\"true\"><rect width=\"32\" height=\"32\" rx=\"8\" fill=\"#166534\"/><path d=\"M16 8.5v15\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\"/><path d=\"M9.7 8.5c0 7.4 3 9.7 6.3 9.7s6.3-2.3 6.3-9.7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" fill=\"none\"/></svg>База знаний педагога-психолога</span>",
       "css": ".ds-brand { display: inline-flex; align-items: center; gap: 12px; font: 600 15px/1 Inter, system-ui, sans-serif; color: #1c1e21; }"
+    },
+    {
+      "name": "Search Dropdown",
+      "kind": "custom",
+      "refersTo": "navbar-search",
+      "description": "Выпадающая подсказка поиска в navbar: тихие поверхности, выбранная строка — акцент 14%, совпадения — текст сплошным акцентом (вес 600), без заливки.",
+      "html": "<div class=\"ds-search-menu\"><a class=\"ds-search-hit\" href=\"#\"><span class=\"ds-search-hit-title\">Заключение и <mark>согласие</mark> на ПМПК</span><span class=\"ds-search-hit-path\">Справочник › Шаблоны документов</span></a><a class=\"ds-search-hit ds-search-hit-active\" href=\"#\"><span class=\"ds-search-hit-title\">Документы ППк и направление на <mark>ПМПК</mark></span><span class=\"ds-search-hit-path\">Справочник › Шаблоны документов</span></a></div>",
+      "css": ".ds-search-menu { display: flex; flex-direction: column; gap: 4px; background: #f2f6f2; border-radius: 6px; padding: 12px; width: 560px; box-shadow: 0 3px 8px 0 #555a64; } .ds-search-hit { display: flex; flex-direction: column; gap: 2px; background: #ffffff; border-radius: 4px; padding: 8px 12px; text-decoration: none; } .ds-search-hit-active { background: rgba(22, 101, 52, 0.14); } .ds-search-hit-title { font: 600 14px/1.4 Inter, system-ui, sans-serif; color: #1c1e21; } .ds-search-hit-title mark { background: none; color: #166534; font-weight: 600; } .ds-search-hit-path { font: 400 12px/1.4 Inter, system-ui, sans-serif; color: #4b5563; }"
     }
   ],
   "narrative": {
