@@ -29,6 +29,7 @@
   --search-local-modal-background: #f2f6f2;
   --search-local-hit-background: #ffffff;
   --search-local-hit-color: #1c1e21;
+  --search-local-hit-active-color: #1c1e21;
   --search-local-muted-color: #4b5563;
   --search-local-highlight-color: rgba(22, 101, 52, 0.14);
 }
@@ -54,6 +55,7 @@
   --search-local-modal-background: #222b25;
   --search-local-hit-background: #1a211d;
   --search-local-hit-color: #e5e7eb;
+  --search-local-hit-active-color: #e5e7eb;
   --search-local-muted-color: #9ca3af;
   --search-local-highlight-color: rgba(76, 195, 138, 0.22);
 }
@@ -67,6 +69,24 @@ mark {
 }
 [data-theme='dark'] mark {
   background: rgba(76, 195, 138, 0.28);
+}
+
+/* Совпадения в выпадающей подсказке поиска: сплошной цвет акцента.
+   Плагин красит их переменной подсветки (полупрозрачная заливка
+   выбранной строки) — как цвет текста она нечитаема. */
+.navbar__search [class*='hitWrapper'] mark {
+  background: none;
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* Карточки страниц-указателей разделов: заголовок и описание
+   переносятся по строкам, а не обрезаются многоточием */
+.theme-doc-card-title.text--truncate,
+.theme-doc-card-description.text--truncate {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
 }
 
 /* Браузерные поверхности несут ту же гамму */

@@ -58,6 +58,7 @@ const config = {
         indexPages: true,
         searchResultContextMaxLength: 120,
         highlightSearchTermsOnTargetPage: true,
+        searchBarShortcutHint: false,
       }),
     ],
   ],
