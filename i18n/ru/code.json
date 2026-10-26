@@ -1,6 +1,6 @@
 {
   "theme.SearchBar.label": {
-    "message": "Поиск по справочнику",
+    "message": "",
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchBar.noResultsText": {
