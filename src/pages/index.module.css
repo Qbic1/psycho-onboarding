@@ -23,8 +23,18 @@
   color: #9ca3af;
 }
 
+.ctaRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
 .cta {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   background: var(--ifm-color-primary);
   color: #ffffff;
   font-size: 16px;
@@ -38,6 +48,46 @@
   background: var(--ifm-color-primary-dark);
   color: #ffffff;
   text-decoration: none;
+}
+
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: 1.5px solid #1c1e21;
+  color: #1c1e21;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 13.5px 26px;
+  border-radius: 10px;
+  transition: background-color 0.15s ease;
+}
+
+.ctaSecondary:hover {
+  background: rgba(28, 30, 33, 0.06);
+  color: #1c1e21;
+  text-decoration: none;
+}
+
+:global([data-theme='dark']) .ctaSecondary {
+  border-color: #e5e7eb;
+  color: #e5e7eb;
+}
+
+:global([data-theme='dark']) .ctaSecondary:hover {
+  background: rgba(229, 231, 235, 0.08);
+  color: #e5e7eb;
+}
+
+.ctaHint {
+  border: 1px solid currentColor;
+  border-radius: 10px;
+  padding: 0 8px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  opacity: 0.7;
 }
 
 .cards {
