@@ -111,7 +111,7 @@ const sidebars = {
       '22 тематические программы педагога-психолога: правовые основы, терминология, цели и задачи, взаимодействие специалистов и помесячный план мероприятий.',
       [
         'programmy/obzor',
-        group('Основа года', [
+        group('Обязательный минимум', [
           'programmy/adaptaciya',
           'programmy/diagnostika-monitoring',
           'programmy/gotovnost-k-shkole',
